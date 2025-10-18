@@ -54,41 +54,6 @@ The relationships between these tables ensure accurate linkage between invoices 
 
 ---
 
-## 🚀 How to Use
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/Soomaya/Power-BI-Accounts-Payable-Overview.git
-   cd Power-BI-Accounts-Payable-Overview
-````
-
-2. Open `reports/Accounts-Payable-Overview.pbix` in **Power BI Desktop**.
-3. Load the datasets from the `data/raw/` folder.
-4. Refresh all visuals to ensure data synchronization.
-5. Explore insights interactively through filters and slicers (e.g., Vendor, Currency, Month).
-
----
-
-## 📂 Project Structure
-
-```
-Power-BI-Accounts-Payable-Overview/
-│
-├── data/
-│   ├── raw/              # Source data (invoices, vendors)
-│   └── processed/        # Cleaned or aggregated datasets
-│
-├── reports/
-│   ├── Accounts-Payable-Overview.pbix
-│   └── screenshots/
-│
-├── scripts/              # Optional: data prep or ETL scripts
-│
-├── README.md
-└── .gitignore
-```
-
----
-
 ## 🧠 Key Insights Summary
 
 * 7.17M in total outstanding payables across multiple currencies.
