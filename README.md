@@ -65,7 +65,9 @@ The relationships between these tables ensure accurate linkage between invoices 
 ## 🪪 Author
 
 **Created by:** [Soomaya](https://github.com/Soomaya)
+
 **Project:** Power BI – *Accounts Payable Overview (2024–2025)*
+
 **Tools:** Power BI | DAX | Excel | Power Query
 
 > “Empowering financial visibility through data-driven insights.”
