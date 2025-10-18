@@ -22,7 +22,6 @@ The data model connects three key tables:
 
 
 📸 **Model Preview:**  
-![Data Model](7ae3138e-013a-4082-9cd2-4f7e45ff5228.png)
 
 The relationships between these tables ensure accurate linkage between invoices and vendor details, allowing for both **domestic and international payables analysis**.
 
@@ -42,7 +41,6 @@ The relationships between these tables ensure accurate linkage between invoices 
 - **Time Trends:** Monthly count visualization forecasts invoice flow and helps balance liquidity.
 
 📸 **Dashboard Preview:**  
-![Dashboard Overview](180643ef-29ae-4c32-ab89-c928ead99a19.jpg)
 
 ---
 
@@ -83,4 +81,3 @@ If you have questions, ideas, or collaboration requests — feel free to reach o
     <img src="https://img.shields.io/badge/📩_Contact_Me-Click_Here-blue?style=for-the-badge" alt="Contact Button"/>
   </a>
 </p>
-```
