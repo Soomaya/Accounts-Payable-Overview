@@ -1,32 +1,121 @@
-# Accounts Payable Overview Dashboard
+# 💼 Accounts Payable Overview (Power BI Dashboard)
 
-## About the Project
-I created this Power BI dashboard to help visualize and manage Accounts Payable data.  
-It provides finance teams with quick insights into vendor balances, invoice aging, and payment performance.
+## 📊 Project Overview
+This Power BI dashboard provides a comprehensive and interactive **Accounts Payable Overview** for finance departments.  
+It enables users to monitor invoice payments, analyze supplier performance, and anticipate upcoming liabilities — offering a 360° view of the company’s payables across local and foreign vendors.
 
-## Key Features
-- Overview of total and overdue payables  
-- Vendor performance analysis  
-- Monthly cash outflow trend  
-- Interactive filtering by vendor, category, and time  
+---
 
-## Tools Used
-- Power BI Desktop  
-- Excel / CSV Data  
-- DAX for custom KPIs  
+## 🎯 Objectives
+- Track the **total payable amounts** and identify overdue or upcoming invoices.  
+- Visualize the **distribution of payables** by currency (MAD, EUR, USD).  
+- Compare **vendor exposure** and detect top outstanding balances.  
+- Enhance **cash flow forecasting** through detailed invoice aging analysis.  
+- Facilitate **decision-making** for finance managers and accountants.  
 
-## Dashboard Preview
-| Overview | Vendor Analysis |
-|-----------|----------------|
-| ![Overview](images/dashboard-preview.png) | ![Vendor Analysis](images/vendor-analysis.png) |
+---
 
-## What I Learned
-This project improved my skills in financial dashboard design, DAX calculation, and data modeling in Power BI.
+## 🧩 Data Model
+The data model connects three key tables:
 
-## How to Use
-1. Download the `.pbix` file from this folder.  
-2. Open it in **Power BI Desktop**.  
-3. Refresh or replace the data source if necessary.
+<img width="910" height="441" alt="Screenshot 1" src="https://github.com/user-attachments/assets/54a1a8c4-dd92-4aae-99aa-e4cdd6f54b18" />
 
-## Contact
-📩 [soumayaelfadili@gmail.com](mailto:soumayaelfadili@gmail.com)
+
+📸 **Model Preview:**  
+![Data Model](7ae3138e-013a-4082-9cd2-4f7e45ff5228.png)
+
+The relationships between these tables ensure accurate linkage between invoices and vendor details, allowing for both **domestic and international payables analysis**.
+
+---
+
+## 💡 Key KPIs
+
+![2](https://github.com/user-attachments/assets/8ec37a1a-3f03-466d-b860-1989e842a470)
+
+---
+
+## 📈 Dashboard Insights
+- **Aging Analysis:** The heatmap quickly identifies overdue or soon-to-be-due invoices per vendor, improving payment prioritization.  
+- **Currency Distribution:** A Pie chart simplifies understanding of payables by currency exposure, supporting hedging decisions.  
+- **Top Vendors:** Horizontal bar chart visualizes which suppliers have the highest payable amounts, assisting in vendor management.  
+- **Next Invoices to Pay Table:** Lists immediate upcoming payments, ideal for treasury scheduling.  
+- **Time Trends:** Monthly count visualization forecasts invoice flow and helps balance liquidity.
+
+📸 **Dashboard Preview:**  
+![Dashboard Overview](180643ef-29ae-4c32-ab89-c928ead99a19.jpg)
+
+---
+
+## 🧮 Tools & Techniques
+- **Power BI Desktop** (Data visualization & dashboard creation)  
+- **Power Query** (Data transformation and cleaning)  
+- **DAX Measures** (Dynamic KPIs, currency aggregation, and time intelligence)  
+- **Excel / CSV** (Data sources for invoice and vendor details)
+
+---
+
+## 🚀 How to Use
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Soomaya/Power-BI-Accounts-Payable-Overview.git
+   cd Power-BI-Accounts-Payable-Overview
+````
+
+2. Open `reports/Accounts-Payable-Overview.pbix` in **Power BI Desktop**.
+3. Load the datasets from the `data/raw/` folder.
+4. Refresh all visuals to ensure data synchronization.
+5. Explore insights interactively through filters and slicers (e.g., Vendor, Currency, Month).
+
+---
+
+## 📂 Project Structure
+
+```
+Power-BI-Accounts-Payable-Overview/
+│
+├── data/
+│   ├── raw/              # Source data (invoices, vendors)
+│   └── processed/        # Cleaned or aggregated datasets
+│
+├── reports/
+│   ├── Accounts-Payable-Overview.pbix
+│   └── screenshots/
+│
+├── scripts/              # Optional: data prep or ETL scripts
+│
+├── README.md
+└── .gitignore
+```
+
+---
+
+## 🧠 Key Insights Summary
+
+* 7.17M in total outstanding payables across multiple currencies.
+* 86 invoices expected in the upcoming 45 days.
+* Top 5 vendors represent **over 60%** of total payable exposure.
+* Majority of invoices are in **MAD**, emphasizing local supplier dominance.
+* Payment trends show peaks around **August–September**, suggesting periodic invoice clustering.
+
+---
+
+## 🪪 Author
+
+**Created by:** [Soomaya](https://github.com/Soomaya)
+**Project:** Power BI – *Accounts Payable Overview (2024–2025)*
+**Tools:** Power BI | DAX | Excel | Power Query
+
+> “Empowering financial visibility through data-driven insights.”
+
+---
+
+## 📬 Contact Me
+
+If you have questions, ideas, or collaboration requests — feel free to reach out:
+
+<p align="center">
+  <a href="mailto:soumayaelfadili@gmail.com">
+    <img src="https://img.shields.io/badge/📩_Contact_Me-Click_Here-blue?style=for-the-badge" alt="Contact Button"/>
+  </a>
+</p>
+```
